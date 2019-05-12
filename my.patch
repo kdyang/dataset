@@ -1,10 +1,35 @@
+diff --git a/network/models/building_blocks/conv.py b/network/models/building_blocks/conv.py
+index 197e5cb..f31bed7 100644
+--- a/network/models/building_blocks/conv.py
++++ b/network/models/building_blocks/conv.py
+@@ -1,4 +1,3 @@
+-
+ from logger import coil_logger
+ import torch.nn as nn
+ import torch.nn.init as init
 diff --git a/network/models/coil_icra.py b/network/models/coil_icra.py
-index 90e92b6..62ef800 100644
+index 90e92b6..43475d6 100644
 --- a/network/models/coil_icra.py
 +++ b/network/models/coil_icra.py
-@@ -1,3 +1,5 @@
+@@ -1,3 +1,6 @@
 +import sys
 +sys.path.append("../..")
++sys.path.append("./")
  from logger import coil_logger
  import torch.nn as nn
  import torch
+@@ -6,10 +9,10 @@ import importlib
+ from configs import g_conf
+ from coilutils.general import command_number_to_index
+ 
+-from .building_blocks import Conv
+-from .building_blocks import Branching
+-from .building_blocks import FC
+-from .building_blocks import Join
++from building_blocks import Conv
++from building_blocks import Branching
++from building_blocks import FC
++from building_blocks import Join
+ 
+ class CoILICRA(nn.Module):
+ 
