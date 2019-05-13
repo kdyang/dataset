@@ -1,0 +1,39 @@
+---- TRAINING - EPOCH 1 -----
+LEARNING RATE:  0.0005
+loss: 1.486 (epoch: 1, step: 0) // Avg time/img: 3.4387 s
+loss: 0.206 (epoch: 1, step: 50) // Avg time/img: 2.9716 s
+loss: 0.1414 (epoch: 1, step: 100) // Avg time/img: 2.9782 s
+loss: 0.119 (epoch: 1, step: 150) // Avg time/img: 2.9884 s
+loss: 0.1064 (epoch: 1, step: 200) // Avg time/img: 2.9956 s
+loss: 0.0985 (epoch: 1, step: 250) // Avg time/img: 2.9970 s
+loss: 0.09367 (epoch: 1, step: 300) // Avg time/img: 3.0017 s
+loss: 0.09061 (epoch: 1, step: 350) // Avg time/img: 3.0036 s
+loss: 0.08724 (epoch: 1, step: 400) // Avg time/img: 3.0051 s
+loss: 0.08506 (epoch: 1, step: 450) // Avg time/img: 3.0052 s
+loss: 0.08339 (epoch: 1, step: 500) // Avg time/img: 3.0047 s
+loss: 0.08156 (epoch: 1, step: 550) // Avg time/img: 3.0047 s
+loss: 0.08053 (epoch: 1, step: 600) // Avg time/img: 3.0060 s
+loss: 0.0788 (epoch: 1, step: 650) // Avg time/img: 3.0098 s
+loss: 0.07725 (epoch: 1, step: 700) // Avg time/img: 3.0113 s
+loss: 0.07573 (epoch: 1, step: 750) // Avg time/img: 3.0127 s
+loss: 0.07456 (epoch: 1, step: 800) // Avg time/img: 3.0143 s
+loss: 0.07327 (epoch: 1, step: 850) // Avg time/img: 3.0170 s
+loss: 0.07206 (epoch: 1, step: 900) // Avg time/img: 3.0178 s
+loss: 0.07116 (epoch: 1, step: 950) // Avg time/img: 3.0183 s
+loss: 0.0705 (epoch: 1, step: 1000) // Avg time/img: 3.0185 s
+loss: 0.06986 (epoch: 1, step: 1050) // Avg time/img: 3.0193 s
+loss: 0.06943 (epoch: 1, step: 1100) // Avg time/img: 3.0196 s
+loss: 0.0687 (epoch: 1, step: 1150) // Avg time/img: 3.0204 s
+loss: 0.06779 (epoch: 1, step: 1200) // Avg time/img: 3.0205 s
+loss: 0.06741 (epoch: 1, step: 1250) // Avg time/img: 3.0209 s
+loss: 0.06698 (epoch: 1, step: 1300) // Avg time/img: 3.0206 s
+loss: 0.06621 (epoch: 1, step: 1350) // Avg time/img: 3.0207 s
+loss: 0.06567 (epoch: 1, step: 1400) // Avg time/img: 3.0210 s
+loss: 0.06549 (epoch: 1, step: 1450) // Avg time/img: 3.0211 s
+----- VALIDATING - EPOCH 1 -----
+VAL loss: 0.03501 (epoch: 1, step: 0) // Avg time/img: 0.9052 s
+VAL loss: 0.05181 (epoch: 1, step: 50) // Avg time/img: 0.8345 s
+VAL loss: 0.04957 (epoch: 1, step: 100) // Avg time/img: 0.8356 s
+VAL loss: 0.05221 (epoch: 1, step: 150) // Avg time/img: 0.8336 s
+VAL loss: 0.05748 (epoch: 1, step: 200) // Avg time/img: 0.8360 s
+EPOCH IoU on VAL set:  70.25 %
